@@ -54,38 +54,7 @@
 		<script>LA.init({id:"1yxI18dBtpOcAN9I",ck:"1yxI18dBtpOcAN9I"})</script>
 
 		<!-- 在线聊天组件 -->
-		<script>
-			// 当前使用的是：Chatra
-			window.ChatraSetup = {
-				locale: {
-					chat: {
-						input: {
-							placeholder: '在这里输入消息'
-						}
-					},
-					name: '昵称',
-					yourName: '你的昵称',
-					messageTypes: {
-						joinedFirst: '进入聊天',
-						joined: '{{#username}} 现身',
-						agentsOffline: '管理员离线'
-					}
-				},
-				chatWidth : 330,
-				chatHeight : 570
-			};
-
-			(function(d, w, c) {
-				w.ChatraID = 'DLTirwYNnHxttCXoh';
-				var s = d.createElement('script');
-				w[c] = w[c] || function() {
-					(w[c].q = w[c].q || []).push(arguments);
-				};
-				s.async = true;
-				s.src = 'https://call.chatra.io/chatra.js';
-				if (d.head) d.head.appendChild(s);
-			})(document, window, 'Chatra');
-		</script>
+		<script src="/js/mychat.js"></script>
     </head>
     <body>
       <div id="sidebar">
